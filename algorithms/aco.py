@@ -5,7 +5,6 @@ Created on Sun Jan 24 15:43:07 2021
 https://github.com/QiuBingCheng/MediumArticle
 """
 
-import pandas as pd
 import numpy as np
 import sys
 import random
