@@ -1,5 +1,6 @@
 # GeneticAnts
 This GitHub repository is my interest in meta-heuristics to solve optimization problems that are NP-hard problems. 
+- This repositories interest in TSP problems, ACO and GA
 
 ---
 ## Genetic Alogorithm
