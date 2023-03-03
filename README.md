@@ -15,7 +15,7 @@ Ant colony optimization (ACO) is an optimization algorithm which employs the pro
 From *[Applications of Big Data in Healthcare, 2021](https://www.sciencedirect.com/science/article/pii/B9780128202036000023)*
 
 ---
-## Pseudocode
+## Pseudocode of Hybrid ACO and GA
 ```bash
 Define: num_Ants, num_iterations, alpha, beta
 # Start the Algorithm
