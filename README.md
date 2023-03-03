@@ -16,21 +16,23 @@ From *[Applications of Big Data in Healthcare, 2021](https://www.sciencedirect.c
 ---
 ## Pseudocode
 ```bash
-Define: num_Ants, num_iterations, mutation_rate
+Define: num_Ants, num_iterations, alpha, beta
 # Start the Algorithm
 while iteration < num_iterations
 do     
     start Ant by num_Ants to find path
         evaluate Ant
-        select 'Best_Ant' and random select 'Ant' from Ant pool in iteration
-        do 
-            crossover operation between 'Best_Ant' and 'Ant' 
-            mutation operation by mutation_rate
+        Binary Tournament to select 2 Ants 
+        do operation
+            Order crossover 
+            Inversion  Mutation  
         evaluate 'new_Ant' from  operation
+        update pheromone by alpha abd beta
 if iteration >= num_iterations
     break
 ```
 ---
 
 # Referrence
-- Ant Coloy Optimization from *[QiuBingCheng Github repositories](https://github.com/QiuBingCheng/MediumArticle)*
+- Ant Coloy Optimization 
+from *[QiuBingCheng Github repositories](https://github.com/QiuBingCheng/MediumArticle)*
